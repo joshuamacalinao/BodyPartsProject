@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Identify">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/chilanka"
+        android:text="Back"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/ic_icons8_back_to" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_science"
+        android:transitionName="logo" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/chilanka"
+        android:text="Identify Body Parts"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:transitionName="title" />
+
+
+    <ImageView
+        android:id="@+id/bgsound"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/ic_sound" />
+
+
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_pause" />
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/mystyle"
+        android:fontFamily="@font/chilanka"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:text="Score: 0"
+        android:textSize="15sp" />
+
+
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/body1" />
+
+
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:gravity="left|center">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="-18dp"
+            android:gravity="left|center"
+            android:orientation="vertical">
+
+            <EditText
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:hint="answer"
+                android:background="@drawable/mystyle"
+                android:id="@+id/id1"
+                android:backgroundTint="#EFE9E9"
+                android:layout_marginLeft="10dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="130dp"/>
+
+            <EditText
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:id="@+id/id2"
+                android:layout_marginTop="18dp"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/mystyle"
+                android:backgroundTint="#EFE9E9"
+                android:hint="answer"
+                android:textAlignment="center" />
+
+            <EditText
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:id="@+id/id3"
+                android:layout_marginLeft="10dp"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/mystyle"
+                android:backgroundTint="#EFE9E9"
+                android:hint="answer"
+                android:textAlignment="center" />
+
+            <EditText
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:hint="answer"
+                android:background="@drawable/mystyle"
+                android:id="@+id/id4"
+                android:backgroundTint="#EFE9E9"
+                android:layout_marginLeft="10dp"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:hint="answer"
+                android:background="@drawable/mystyle"
+                android:id="@+id/id5"
+                android:backgroundTint="#EFE9E9"
+                android:layout_marginLeft="10dp"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-18dp"
+            android:gravity="right|center"
+            android:orientation="vertical">
+
+            <EditText
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:hint="answer"
+                android:background="@drawable/mystyle"
+                android:id="@+id/id6"
+                android:backgroundTint="#EFE9E9"
+                android:layout_marginRight="10dp"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp" />
+
+            <EditText
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:id="@+id/id7"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/mystyle"
+                android:backgroundTint="#EFE9E9"
+                android:hint="answer"
+                android:textAlignment="center" />
+
+            <EditText
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:id="@+id/id8"
+                android:layout_marginRight="10dp"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/mystyle"
+                android:backgroundTint="#EFE9E9"
+                android:hint="answer"
+                android:textAlignment="center" />
+
+            <EditText
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:hint="answer"
+                android:background="@drawable/mystyle"
+                android:id="@+id/id9"
+                android:backgroundTint="#EFE9E9"
+                android:layout_marginRight="10dp"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp" />
+
+            <EditText
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:hint="answer"
+                android:background="@drawable/mystyle"
+                android:id="@+id/id10"
+                android:backgroundTint="#EFE9E9"
+                android:layout_marginRight="10dp"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:onClick="submit"
+        app:cornerRadius="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="Submit"/>
+
+
+
+
+
+</RelativeLayout>

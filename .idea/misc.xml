@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Mob dev Projects/BodyParts/app/src/main/res/drawable/ic_information.xml" value="0.1505" />
+        <entry key="..\:/Mob dev Projects/BodyParts/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/drawable-v24/ic_arrow_forward_black_24dp.xml" value="0.204" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/drawable-v24/indicator_default.xml" value="0.1935" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/drawable-v24/indicator_selected.xml" value="0.1935" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/drawable-v24/indicator_selector.xml" value="0.204" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/drawable-v24/mystyle.xml" value="0.299" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout-land/activity_bodyparts.xml" value="0.25" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout-land/activity_identify.xml" value="0.25" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout-sw600dp/activity_bodyparts.xml" value="0.33" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/activity_bodyparts.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/activity_home_page.xml" value="0.33" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/activity_identify.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/activity_quiz.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/activity_speak.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/activity_tap_answer.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/body_modal.xml" value="0.2965811965811966" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/custom_toast.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/game_modal.xml" value="0.2965811965811966" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/layout_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/menu_item.xml" value="0.5" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/pause_modal.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/CPF Nigs/Desktop/BodyParts/app/src/main/res/layout/speech_item.xml" value="0.29743589743589743" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

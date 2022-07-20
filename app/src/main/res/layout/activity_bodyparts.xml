@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bodyparts">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_margin="10dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        app:cornerRadius="20dp"
+        android:padding="10dp"
+        android:onClick="back"
+        app:icon="@drawable/ic_icons8_back_to"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/bgsound"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_sound" />
+
+    <TextView
+        android:textStyle="bold"
+        style="@style/TextAppearance.MaterialComponents.Headline5"
+        android:layout_margin="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        tools:text="@tools:sample/lorem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"/>
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/body1" />
+
+
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:gravity="left|center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-18dp"
+            android:gravity="left|center"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/id1"
+                android:background="@android:color/transparent"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/id2"
+                android:background="@android:color/transparent"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/id3"
+                android:background="@android:color/transparent"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/id4"
+                android:background="@android:color/transparent"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/id5"
+                android:background="@android:color/transparent"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-18dp"
+            android:layout_marginRight="25dp"
+            android:gravity="right|center"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/id6"
+                android:background="@android:color/transparent"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/id7"
+                android:background="@android:color/transparent"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/id8"
+                android:background="@android:color/transparent"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/id9"
+                android:background="@android:color/transparent"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/id10"
+                android:background="@android:color/transparent"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
